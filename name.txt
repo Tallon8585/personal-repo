@@ -1,1 +1,16 @@
 my name is Tallon Wanlass
+
+** Workflow
+-New Repo:
+--local
+> git init
+> Worked on our changes
+> git add .
+> git commit -m "first commit" or "initial commit"
+
+--Remote (Github)
+> Login
+>  Create a reopository (named same or similar to local project)
+> Go back to local git repo, add remote, change master branch
+  >> (copy commands from github, paste into terminal)
+  
