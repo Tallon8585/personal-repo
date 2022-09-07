@@ -1,1 +1,29 @@
 my name is Tallon Wanlass
+
+** Workflow
+-New Repo:
+--local
+> git init
+> Worked on our changes
+> git add .
+> git commit -m "first commit" or "initial commit"
+
+--Remote (Github)
+> Login
+>  Create a reopository (named same or similar to local project)
+> Go back to local git repo, add remote, change master branch
+  >> (copy commands from github, paste into terminal)
+> git push -u origin main
+
+  - Working repossitory:
+  -- local
+  > if this is a new feature:
+  >> git checkout - b <branch-name>
+  > Development
+  > git add .
+  > git commit -m "explicit but short message explaining changes"
+  > git push -u origin <branch-name>
+
+
+  ** Helpful 
+  < git status
